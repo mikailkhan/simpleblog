@@ -1,0 +1,51 @@
+<%- include('partials/header.ejs') %>
+
+    <!-- Post Section -->
+
+    <div class="p-5 text-center bg-body-tertiary rounded-3">
+        <h1 class="text-body-emphasis">Publish Now</h1>
+        <p class="lead">
+            This is a simple blog where you can post anything for free.
+        </p>
+        <div class="container">
+            <div class="col-lg-9 mx-auto">
+                <form action="/submit" method="post">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="title" name="headline" placeholder="Headline">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="category" name="category" placeholder="Category">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                            placeholder="Type body here" name="body"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Published Blogs Section -->
+
+    <div class="container">
+        <div class="row">
+            <% for (let i=0; i < titles.length; i++) { %>
+                <div class="card mx-auto my-5" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <%= titles[i] %>
+                        </h5>
+                        <p class="card-text">
+                            <%= body[i] %>
+                        </p>
+                        <a href="/blog/<%= titles[i] %>" class="btn btn-warning">Read</a>
+                    </div>
+                </div>
+                <% } %>
+        </div>
+
+    </div>
+
+
+    <%- include('partials/footer.ejs') %>

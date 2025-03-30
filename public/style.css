@@ -1,0 +1,12 @@
+.footer {
+    background-color: rgb(20, 24, 61);
+    color:rgb(255, 255, 255);
+}
+
+.footer p {
+    color: rgb(91, 94, 120);
+}
+
+#copyright-text {
+    color: white;
+}
