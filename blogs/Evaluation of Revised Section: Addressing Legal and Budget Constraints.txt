@@ -1,20 +1,6 @@
-Article
-Marks Awarded: 5/5 ✅
-Comments:
-Improvements Noted:
+What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-You have retained the discussion on hiring freelancers as a cost-saving strategy.
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
-You added automated compliance checks for GDPR, which strengthens your response by incorporating a technical solution to legal constraints.
-
-You correctly emphasize strict law enforcement to avoid future legal issues.
-
-Why Full Marks?
-
-You addressed both legal (compliance with different country laws, GDPR) and budget (hiring freelancers, reducing costs) constraints.
-
-You provided a practical and scalable solution (automation) instead of only manual effort.
-
-The response is concise yet effective, covering the core challenges and solutions.
-
-✅ Great job! No further improvements needed in this section. Would you like me to review the next part? 😊
