@@ -1,39 +1,9 @@
-NodeJs Tut 1
-So you want to save some text to a file using Node.js.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit lacinia eros, in ultricies sapien luctus sit amet. Cras facilisis vulputate dolor eget hendrerit. Duis neque neque, mollis in bibendum ac, tempor scelerisque lectus. Sed consectetur elit vel velit aliquam semper. Nulla ultricies nulla non libero porttitor, et dignissim justo sodales. Aenean efficitur ante quis risus finibus, quis laoreet quam sagittis. Ut a ullamcorper eros, et consequat nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus dolor neque, sollicitudin non ex non, interdum vestibulum nisi. Vivamus bibendum dui eget efficitur porttitor. Nam vitae libero at turpis aliquet varius. Mauris eleifend pretium erat sed aliquet. Curabitur congue et enim nec blandit. Nulla facilisi. Suspendisse in blandit risus. Donec egestas massa quis luctus dignissim.
 
-Super simple:
+Morbi viverra blandit dolor, non sagittis turpis convallis eget. Donec nec urna quis justo rutrum viverra. Mauris in neque in metus molestie viverra vitae ac ante. Sed convallis turpis et ante interdum iaculis. Donec quis volutpat tellus. Pellentesque et tortor ac lorem sodales consectetur. Mauris vitae pulvinar nisl. Aenean ullamcorper faucibus posuere. Nullam aliquet lorem et enim efficitur varius. Cras sit amet semper ligula. Sed tristique commodo elit, ut accumsan neque vestibulum at. Cras eget mollis nisi. Ut lacinia vulputate orci, rutrum tristique massa dapibus sed. Ut velit ipsum, lobortis eu ipsum a, venenatis pellentesque augue.
 
-import fs from 'node:fs'
+Nam vulputate sagittis maximus. Aliquam ornare viverra viverra. Nam finibus urna et lectus pharetra porttitor. Aliquam erat volutpat. Morbi tellus justo, congue quis posuere nec, condimentum ut lacus. Suspendisse interdum ex at velit aliquet porta. Etiam eu tincidunt risus. Mauris a tortor quis quam aliquam convallis vel ac ante. Pellentesque at mattis erat. Praesent fermentum ut metus et maximus. Nunc volutpat purus eget luctus suscipit. Vestibulum sed iaculis nisi, vitae semper ligula. Duis id tempus sapien. Sed finibus est vitae sollicitudin cursus.
 
-const text = 'yo'
+Praesent maximus maximus varius. Duis est mauris, cursus et mollis at, sodales vitae ante. Ut feugiat risus ut gravida facilisis. Vestibulum sapien risus, egestas in lorem ut, laoreet blandit ante. Cras odio mauris, sagittis at mauris at, sollicitudin congue nibh. Nullam egestas dictum nisi at lobortis. Phasellus et mi eget nibh dictum egestas in eu dolor. Phasellus lacinia, lacus tempor finibus sagittis, ligula felis varius diam, non lobortis tellus dolor non quam. Sed urna ex, pretium eget purus vel, pulvinar ullamcorper nisi.
 
-fs.writeFile('text.txt', text, (err) => {
-  if (err) {
-    console.error(err)
-  }
-  console.log('done')
-})
-Written on May 12, 2023
-→ Get my Node.js Handbook
-I wrote 19 books to help you become a better developer:
-
-HTML Handbook
-Next.js Pages Router Handbook
-Alpine.js Handbook
-HTMX Handbook
-TypeScript Handbook
-React Handbook
-SQL Handbook
-Git Cheat Sheet
-Laravel Handbook
-Express Handbook
-Swift Handbook
-Go Handbook
-PHP Handbook
-Python Handbook
-Linux Commands Handbook
-C Handbook
-JavaScript Handbook
-CSS Handbook
-Node.js Handbook
-...download them all now!
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed ac dui sit amet justo dapibus congue vitae sed mauris. Nullam dictum auctor rhoncus. Quisque mi libero, rutrum non sapien sit amet, dapibus facilisis enim. Maecenas in ligula ut magna convallis consectetur. Proin ultrices congue congue. In efficitur lacus eget interdum pretium. Pellentesque sit amet interdum nunc. Etiam luctus, dolor ac imperdiet feugiat, massa metus tristique eros, vitae fermentum leo arcu et nulla. Nullam vulputate imperdiet urna, luctus ultrices lorem pellentesque quis. Nulla et mollis nulla. Nunc dictum tempus sem eget varius. Fusce malesuada augue eget lacus euismod consectetur. Duis at rhoncus leo, tempus ultricies erat. Pellentesque id mattis ligula.
